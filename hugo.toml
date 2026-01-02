@@ -1,4 +1,3 @@
 baseURL = 'https://example.org/'
 languageCode = 'tr-tr'
 title = 'My New Hugo Site'
-theme = "sonkitaptheme-v1"
