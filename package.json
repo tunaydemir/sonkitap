@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/app.css --watch",
+    "watch:css": "tailwindcss -i ./assets/css/main.css -o ./static/css/tailwind.css --watch",
     "watch:build": "npm-run-all --parallel watch:css dev",
     "build": "hugo",
     "dev": "hugo server -D",
