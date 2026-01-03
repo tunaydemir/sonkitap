@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"hugo server -D\" \"npm run tailwind\"",
-    "tailwind": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
-    "build": "hugo --gc --minify",
+    "all": "npm-run-all --parallel hugo tailwind",
+    "hugo": "hugo server -D",
+    "tailwind": "tailwindcss -i ./assets/css/main.css -o ./static/css/main.css --watch --minify",
+    "build": "npm-run-all build:hugo build:css",
+    "build:hugo": "hugo --gc --minify",
+    "build:css": "tailwindcss -i ./assets/css/main.css -o ./static/css/main.css",
     "format": "prettier --write ."
   },
   "repository": {
