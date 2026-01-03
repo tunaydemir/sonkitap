@@ -8,6 +8,7 @@ yarn-error.log*
 /public/
 /resources/
 /.hugo_build.lock
+/.prettierrc
 
 # VS Code ayarları
 .vscode/

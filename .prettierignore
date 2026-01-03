@@ -1,0 +1,18 @@
+# Hugo tarafından üretilen klasörler
+public/
+resources/
+
+# Node ve bağımlılıklar
+node_modules/
+
+# Derleme çıktıları
+*.log
+*.tmp
+
+# Hugo config dosyaları (formatlamaya gerek yok)
+config.toml
+config.yaml
+
+# Git ve diğer sistem dosyaları
+.git/
+.DS_Store
