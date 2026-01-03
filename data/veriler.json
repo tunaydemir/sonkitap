@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "surah": "Fatiha",
+    "verses": [
+      {
+        "no": 1,
+        "content": "Rahman ve Rahim olan Allah'ın adıyla.",
+        "videos": [
+          { "author": "Mehmet Okuyan", "id": "YOUTUBE_ID" },
+          { "author": "Caner Taslaman", "id": "YOUTUBE_ID" }
+        ]
+      }
+    ]
+  }
+]
