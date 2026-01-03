@@ -18,4 +18,5 @@ Thumbs.db
 
 # Derlenmiş CSS/JS çıktıları
 /static/css/tailwind.css
+/static/css/main.css
 /static/js/*
